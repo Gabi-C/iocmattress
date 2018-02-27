@@ -110,14 +110,14 @@ footer h2 {
 
 input, textarea {
     display: block;
-    margin: 0.1%;
+    margin: 2% 0;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     padding: 0;
 }
 
 .grid input, .grid textarea {
-  padding: 1.5%;
+  padding: 2.2%;
 }
 
 .round-corners {
@@ -145,30 +145,30 @@ input, textarea {
 
 @media screen and (max-width:586px) {
 
-  .image-dog,
-  .image-bed {
+  .image-dog, .image-bed {
     min-height: 50vh;
     background-position: center;
   }
 
   .top-section {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .pencil p {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .pencil p strong {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .quote {
     font-size: 18px;
   }
 
-  .mobile-flip {
-    flex-direction: column-reverse;
+  .padded {
+    padding: 10% 14%;
+
   }
 
 }
