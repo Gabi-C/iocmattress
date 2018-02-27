@@ -1,0 +1,47 @@
+/* ----- CSS RESET -----*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ----- LAYOUT, PADDING & MARGING -----*/
+
+.padded {
+  padding: 5%;
+
+}
+
+
+/* ----- TYPOGRAPHY -----*/
+
+
+
+/* ----- UNIVERSAL STYLES  -----*/
+
+
+
+
+.top-section {
+  background-image: url(../images/toppic.jpg);
+  background-size: cover;
+  color: white;
+  font-family: 'Righteous', serif;
+  font-size: 50px;
+  min-height: 100vh;
+}
+
+.second-section {
+
+}
+
+.quote {
+  background-color: white;
+  color: darkgrey;
+  min-height: 100vh;
+}
+
+.yellow {
+  color: #f3bd2d;
+}
