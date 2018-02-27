@@ -128,7 +128,6 @@ input, textarea {
 
 .button {
   background-color: #f3bd2d;
-
 }
 
 .text {
@@ -146,12 +145,30 @@ input, textarea {
 
 @media screen and (max-width:586px) {
 
-  .image-dog, .image-bed {
+  .image-dog,
+  .image-bed {
     min-height: 50vh;
     background-position: center;
+  }
+
+  .top-section {
+    font-size: 20px;
+  }
+
+  .pencil p {
+    font-size: 10px;
+  }
+
+  .pencil p strong {
+    font-size: 20px;
   }
 
   .quote {
     font-size: 18px;
   }
+
+  .mobile-flip {
+    flex-direction: column-reverse;
+  }
+
 }
