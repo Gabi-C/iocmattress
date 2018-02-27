@@ -6,14 +6,12 @@
   box-sizing: border-box;
 }
 
-
 /* ----- LAYOUT, PADDING & MARGING -----*/
 
 .padded {
   padding: 10% 5%;
 
 }
-
 
 /* ----- TYPOGRAPHY -----*/
 
@@ -25,11 +23,13 @@ h2 {
   color: #2c3e50;
   font-size: 40px;
   font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 1.5%;
 }
 
 p {
   color: #2c3e50;
   font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
 }
 
 .pencil p {
@@ -40,9 +40,16 @@ p {
   font-size: 80px;
 }
 
+.highlighted-text-1 {
+  color: #f3bd2d;
+}
+
+.highlighted-text-2 {
+  color: white;
+}
+
+
 /* ----- UNIVERSAL STYLES  -----*/
-
-
 
 .top-section {
   background-image: url("../images/toppic.jpg");
@@ -130,18 +137,6 @@ input, textarea {
   background-color: #f3bd2d;
 }
 
-.text {
-  min-height: 100px;
-}
-
-
-.yellow {
-  color: #f3bd2d;
-}
-
-.white {
-  color: white;
-}
 
 @media screen and (max-width:586px) {
 
